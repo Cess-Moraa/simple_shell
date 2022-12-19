@@ -1,9 +1,10 @@
 #include "shell.h"
 
 /**
- * bfree - frees memory
- * @ptr: arr to be freed
- * Return: 1(success), else 0.
+ * bfree - frees a pointer and NULLs the address
+ * @ptr: address of the pointer to free
+ *
+ * Return: 1 if freed, otherwise 0.
  */
 int bfree(void **ptr)
 {
