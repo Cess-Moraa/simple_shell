@@ -67,7 +67,6 @@ ssize_t get_input(info_t *info)
 	{
 		j = i; /* init new iterator to current buf position */
 		p = buf + i; /* get pointer for return */
-	
 		check_chain(info, buf, &j, i, len);
 		while (j < len) /* iterate to semicolon or end */
 		{
